@@ -29,6 +29,7 @@
         env       (env-gen (perc 0.005 1) :action FREE)]
     (* sound-src env)))
 
-(defn beep-letter
-  [k]
-  (beep (get notes k)))
+(defn handle-sound-event!
+  [typ k]
+  (if (= "keydown" typ)
+    (beep (get notes k))))

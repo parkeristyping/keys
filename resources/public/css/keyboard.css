@@ -83,5 +83,7 @@ body{
 .sec-func div.dual{line-height:20px;}
 .arrows .key{text-align: center; padding-left: 7px; margin-left:2px;}
 .hidden{visibility: hidden;}
+.ebony{background-color: black}
+.ivory{color: grey; background-color: white}
 
 .key.glow{background-color: blue;}

@@ -32,30 +32,30 @@
    {:key "Backspace" :cls [:backspace]}
    {:key "Tab" :code "N/A" :cls [:tab]}
    {:key "Q" :code "q" :cls [:letter]}
-   {:key "W" :code "w" :cls [:letter]}
-   {:key "E" :code "e" :cls [:letter]}
-   {:key "R" :code "r" :cls [:letter]}
+   {:key "W" :code "w" :cls [:letter :ebony]}
+   {:key "E" :code "e" :cls [:letter :ebony]}
+   {:key "R" :code "r" :cls [:letter :ebony]}
    {:key "T" :code "t" :cls [:letter]}
-   {:key "Y" :code "y" :cls [:letter]}
-   {:key "U" :code "u" :cls [:letter]}
+   {:key "Y" :code "y" :cls [:letter :ebony]}
+   {:key "U" :code "u" :cls [:letter :ebony]}
    {:key "I" :code "i" :cls [:letter]}
-   {:key "O" :code "o" :cls [:letter]}
-   {:key "P" :code "p" :cls [:letter]}
-   {:key "[" :alt "{" :cls [:dual]}
+   {:key "O" :code "o" :cls [:letter :ebony]}
+   {:key "P" :code "p" :cls [:letter :ebony]}
+   {:key "[" :alt "{" :cls [:dual :ebony]}
    {:key "]" :alt "}" :cls [:dual]}
    {:key "\\" :alt "|" :cls [:letter :dual :slash]}
    {:key "Lock" :alt "Caps" :code "Meta" :cls [:caps]}
-   {:key "A" :code "a" :cls [:letter]}
-   {:key "S" :code "s" :cls [:letter]}
-   {:key "D" :code "d" :cls [:letter]}
-   {:key "F" :code "f" :cls [:letter]}
-   {:key "G" :code "g" :cls [:letter]}
-   {:key "H" :code "h" :cls [:letter]}
-   {:key "J" :code "j" :cls [:letter]}
-   {:key "K" :code "k" :cls [:letter]}
-   {:key "L" :code "l" :cls [:letter]}
-   {:key ";" :alt ":" :cls [:dual]}
-   {:key "'" :alt "\"" :cls [:dual]}
+   {:key "A" :code "a" :cls [:letter :ivory]}
+   {:key "S" :code "s" :cls [:letter :ivory]}
+   {:key "D" :code "d" :cls [:letter :ivory]}
+   {:key "F" :code "f" :cls [:letter :ivory]}
+   {:key "G" :code "g" :cls [:letter :ivory]}
+   {:key "H" :code "h" :cls [:letter :ivory]}
+   {:key "J" :code "j" :cls [:letter :ivory]}
+   {:key "K" :code "k" :cls [:letter :ivory]}
+   {:key "L" :code "l" :cls [:letter :ivory]}
+   {:key ";" :alt ":" :cls [:dual :ivory]}
+   {:key "'" :alt "\"" :cls [:dual :ivory]}
    {:key "Enter" :cls [:enter]}
    {:key "Shift" :cls [:shift :left]}
    {:key "Z" :code "z" :cls [:letter]}
