@@ -22,6 +22,9 @@
       wrap-reload
       wrap-params))
 
+;; (def handler
+;;   (-> routes
+;;       wrap-params))
+
 (def handler
-  (-> routes
-      wrap-params))
+  dev-handler)
