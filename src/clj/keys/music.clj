@@ -39,6 +39,9 @@
 (def arpy
   (lazy-cat [0 3 5 3] arpy))
 
+(def rand-arp
+  (repeatedly #(rand-int 10)))
+
 (defn sequencer
   [note s]
   (when (@depressed note)
